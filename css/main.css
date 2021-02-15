@@ -1,0 +1,160 @@
+
+.visually-hidden{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+        /* Header */
+
+.logo{
+
+    /* font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 30,52px;
+    color: var(--black); */
+    width: 145px;
+    height: 31px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.192;
+    color: var(--black);
+
+}
+
+.logo-first{
+    color: var(--blue);
+}
+
+
+.nav-item{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.142;
+    color: var(--black);
+}
+
+.nav-link{
+    color: var(--black);
+}
+
+.nav-link:hover,
+.nav-link:focus{
+    color: var(--blue);
+}
+
+.contacts{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.142;
+    color: var(--gray);
+}
+
+.contacts:hover,
+.contacts:focus{
+    color: var(--blue)
+}
+          /* MAIN */
+
+.hero-title{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.363;
+    text-transform: uppercase;
+
+}
+
+.hero-btn{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.875;
+    background-color: var(--blue);
+    border: none;
+    color: var(--white);
+}
+
+.advant-title{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.142;
+    color: var(--black);
+    text-transform: uppercase;
+    
+}
+
+.advant-descript{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.714;
+    color: var(--gray);
+}
+
+.about-title,
+.team-title{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.166;
+    color: var(--black);
+}
+
+.team{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.187;
+}
+
+.team-profession{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.187;
+    color: var(--gray);
+}
+
+      /* FOOTER */
+
+.page-footer{
+    background-color: var(--background-foot);
+}
+
+.address{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.714;
+    color: var(--white);
+}
+
+.logo-foot{
+    width: 145px;
+    height: 31px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.192;
+    color: var(--white);
+}
+
+.contacts-list{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.714;
+    color: var(--gray-op60);
+}
