@@ -10,6 +10,16 @@
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
+
+/* основные стили */
+
+.conteiner{
+    width: 1200px;
+    padding: 0 15px;
+    border: 1px solid red;
+}
+
+
        /* HEADER */
        
 .logo{
@@ -33,6 +43,26 @@
     color: var(--blue);
 }
 
+.nav-list,
+.nav-item, 
+.contacts-list{
+    display: flex;
+}
+
+.nav-list{
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 24px;
+    padding-bottom: 25px;
+}
+
+.nav-item li{
+    margin-left: 50px;
+}
+
+.contacts-list li:last-child{
+    margin-left: 50px;
+}
 
 .nav-item{
     font-family: 'Roboto', sans-serif;
