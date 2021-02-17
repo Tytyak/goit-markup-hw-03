@@ -22,10 +22,15 @@
     margin-right: auto;
 }
 
- ul{
+ul,
+h1,
+h2,
+h3,
+h4,
+p{
     margin: 0px;
     padding: 0px;
- }
+}
 
         /* Header */
 
@@ -126,11 +131,6 @@
     text-align: center;
 }
 
-h1{
-    margin: 0px;
-    
-}
-
 
 .hero-btn{
     height: 50px;
@@ -152,6 +152,15 @@ h1{
 .advant-list{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
+    margin-left: -30px;
+    padding-top: 47px;
+    padding-bottom: 94px;
+}
+
+.advant-list >.list{
+    flex-basis: calc(100% / 4 - 30px);
+    margin-left: 30px;
 }
 
 .advant-title{
@@ -161,6 +170,7 @@ h1{
     line-height: 1.142;
     color: var(--black);
     text-transform: uppercase;
+    margin-bottom: 10px;
     
 }
 
