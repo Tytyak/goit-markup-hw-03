@@ -194,21 +194,24 @@ img{
     color: var(--gray);
 }
 
-     /* FOOTER */
+      /* FOOTER */
 
 .page-footer{
     background-color: var(--background-foot);
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
-.address{
+/* .address{
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.714;
     color: var(--white);
-}
+} */
 
 .logo-foot{
+    display: inline-block;
     width: 145px;
     height: 31px;
     font-family: 'Raleway', sans-serif;
@@ -216,9 +219,18 @@ img{
     font-size: 26px;
     line-height: 1.192;
     color: var(--white);
+    margin-bottom: 20px;
 }
 
-.contacts-list{
+.contact-list > li:first-child{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.714;
+    color: var(--white);
+}
+
+.contact-list{
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 14px;
