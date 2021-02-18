@@ -232,15 +232,23 @@ img{
     flex-wrap: wrap;
     justify-content: space-between;
     margin-right: -30px;
+    padding-bottom: 30px;
+
 }
 
 .team-list > li{
     flex-basis: calc(100% / 4 - 30px);
     margin-right: 30px;
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+    
 }
 
 
 .team{
+    margin-bottom: 10px;
+    margin-top: 30px;
+    text-align: center;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -248,6 +256,7 @@ img{
 }
 
 .team-profession{
+    text-align: center;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 16px;
