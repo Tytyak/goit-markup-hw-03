@@ -33,6 +33,11 @@ p{
 
 
        /* HEADER */
+     
+.page-header{
+    border-bottom: 1px solid var(--border-head);
+    width: 1600px;
+}
        
 .logo{
 
