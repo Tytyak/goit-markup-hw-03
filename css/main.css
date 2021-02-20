@@ -302,6 +302,12 @@ img{
     font-size: 14px;
     line-height: 1.714;
     color: var(--white);
+    margin-top: 20px;
+    margin-bottom: 9px;
+}
+
+.contact-list > li:last-child{
+    margin-top: 9px;
 }
 
 .contact-list{

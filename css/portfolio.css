@@ -36,7 +36,7 @@ p{
      
 .page-header{
     border-bottom: 1px solid var(--border-head);
-    width: 1600px;
+    max-width: 1600px;
 }
        
 .logo{
@@ -232,6 +232,15 @@ img{
     font-size: 14px;
     line-height: 1.714;
     color: var(--white);
+    margin-top: 20px;
+}
+
+.contact-list > li::nth-child(2){
+    margin-top: 9px;
+}
+
+.contact-list > li::nth-child(3){
+    margin-top: 9px;
 }
 
 .contact-list{
